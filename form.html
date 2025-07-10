@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY form </title>
+    <style>
+        .intro{
+            display: block;
+            border: 3px solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Pitha Ghar</h2>
+    </header>
+
+    <main>
+        <section>
+            <h4>
+                Jamal Bhuiyan's Pitha Ghar
+            </h4>
+            <form action="" >
+               <fieldset class="intro">
+                <legend>
+                    Basic Info
+                </legend>
+                 <label for="name">Your name</label>
+                <input style="display: block; margin-bottom: 9px;" type="text" name="" id="name">
+                <label for="email">Your email</label>
+
+                <input style="display: block; type="email" name="" id="email">
+               </fieldset>
+
+                <fieldset>
+                    <legend>Car type</legend>
+                    <input type="radio" name="cars" id="Sedan">
+                    <label for="Sedan">Sedan</label>
+
+                    <input type="radio" name="cars" id="sp">
+                    <label for="sp">Sports</label>
+                    <input type="radio" name="cars" id="suv">
+                    <label for="suv">SUV</label>
+                    <input type="radio" name="cars" id="con">
+                    <label for="con">Converitble</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Brand</legend>
+
+                    <input type="checkbox" name="Brand" id="to">
+                    <label for="to">Toyota</label>
+                    <input type="checkbox" name="Brand" id="ho">
+                    <label for="ho">Honda</label>
+                    <input type="checkbox" name="Brand" id="for">
+                    <label for="for">Ford</label>
+                    <input type="checkbox" name="Brand" id="bm">
+                    <label for="bm">Bmw</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Special Request</legend>
+                    <textarea placeholder="Your Request" cols="50" rows="5" name="" id="req"></textarea>
+                </fieldset>
+
+                <input style="display: block; margin-bottom: 10px; margin-top: 10px;" type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
